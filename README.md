@@ -3,6 +3,10 @@
 <p align="center">
 </p>
 
+<p align="center">
+  <img src="assets/logo.png" width="150">
+</p>
+
 <h1 align="center">Dymn Baby</h1>
 
 <p align="center">
