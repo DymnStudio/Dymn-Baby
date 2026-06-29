@@ -24,6 +24,7 @@ import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.foundation.gestures.snapping.rememberSnapFlingBehavior
 import androidx.compose.foundation.horizontalScroll
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -3064,7 +3065,24 @@ private fun AppSettingsDialog(
         shape = RoundedCornerShape(32.dp),
         title = { Text(text = lt("Налаштування", "Settings"), color = DymnText) },
         text = {
-            Column(verticalArrangement = Arrangement.spacedBy(16.dp)) {
+            Column(
+                modifier = Modifier.verticalScroll(rememberScrollState()),
+                verticalArrangement = Arrangement.spacedBy(16.dp),
+            ) {
+                Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
+                    Text(
+                        text = dymnText(currentLanguage, "Діти", "Children"),
+                        color = DymnMuted,
+                        style = dymnText(MaterialTheme.typography.labelLarge)
+                    )
+                    DialogActionButton(
+                        title = dymnText(currentLanguage, "Змінити дитину", "Switch child"),
+                        color = DymnBlue,
+                        onClick = onSwitchChild,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                }
+
                 Column {
                     Text(
                         text = lt("Прозорість тайтлів", "Tile opacity"),
@@ -3230,12 +3248,6 @@ private fun AppSettingsDialog(
                         title = lt("Архів по дням", "Daily archive"),
                         color = DymnCyan,
                         onClick = onOpenArchive,
-                        modifier = Modifier.fillMaxWidth()
-                    )
-                    DialogActionButton(
-                        title = lt("Змінити дитину", "Switch child"),
-                        color = DymnBlue,
-                        onClick = onSwitchChild,
                         modifier = Modifier.fillMaxWidth()
                     )
                 }
