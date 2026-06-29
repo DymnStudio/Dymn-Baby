@@ -1,133 +1,166 @@
-# Dymn Baby
+# Dymn Baby 👶
 
 <p align="center">
-Complete Baby Care & Activity Tracker built with Kotlin and Jetpack Compose.
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Android-8%2B-green">
-<img src="https://img.shields.io/badge/Kotlin-100%25-blue">
-<img src="https://img.shields.io/badge/Jetpack%20Compose-UI-blueviolet">
-<img src="https://img.shields.io/github/v/release/DymnStudio/Dymn-Baby">
-<img src="https://img.shields.io/badge/License-MIT-yellow">
+  <img src="assets/logo.png" width="150">
+</p>
+
+<h1 align="center">Dymn Baby</h1>
+
+<p align="center">
+A modern Android application for tracking your baby's daily routine, growth, and important milestones.
+</p>
+
+<p align="center">
+
+![Android](https://img.shields.io/badge/Android-8.0+-34A853?style=for-the-badge\&logo=android\&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-2.x-7F52FF?style=for-the-badge\&logo=kotlin\&logoColor=white)
+![Material 3](https://img.shields.io/badge/Material-3-1976D2?style=for-the-badge)
+![Offline](https://img.shields.io/badge/Offline-Ready-success?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
+
 </p>
 
 ---
 
-Dymn Baby is a modern baby care tracker designed to monitor your child's daily routine with live activity tracking, growth monitoring and quick one-tap logging.
+## 📖 Contents
 
-## Features
-
-✅ Live Sleep Tracking
-
-✅ Live Activity Tracking
-
-✅ Walking Mode
-
-✅ Feeding Tracking
-
-✅ Diaper Tracking
-
-✅ Notes
-
-✅ Interactive Timeline
-
-✅ Home Screen Widget
-
-✅ Persistent Status Bar Notification
-
-✅ Monthly Growth Monitoring
-
-✅ Monthly Progress Reminders
-
-✅ Daily Statistics
-
-✅ One-Tap Quick Logging
-
-✅ Material 3 Design
-
-✅ Dark Theme
+* Features
+* Screenshots
+* Tech Stack
+* Roadmap
+* Installation
+* License
 
 ---
 
-## Smart Activity Tracking
+# ✨ Features
 
-Sleep and Activity are mutually exclusive states.
-
-When sleep starts, activity tracking automatically pauses.
-
-When sleep ends, activity tracking automatically resumes.
-
-This provides accurate daily activity statistics without manual calculations.
-
----
-
-## Growth Monitoring
-
-Track your baby's monthly development including:
-
-* Weight
-* Height
-* Growth progress
-* Monthly reminders to update measurements
-
----
-
-## Home Screen Widget
-
-Quickly monitor the current baby status directly from the Android home screen.
+* 👶 Multiple child profiles
+* 😴 Sleep tracking
+* 🍼 Feeding log
+* 🚶 Activity tracking
+* 🚽 Toilet / diaper tracking
+* 📈 Growth monitor
+* 🎉 Firsts & milestones
+* ❓ Questions for the pediatrician
+* 🔔 Live foreground notification
+* 📱 Home screen widget
+* 🎨 Built-in wallpapers
+* 🖼️ Custom wallpaper support
+* 🌍 English & Ukrainian languages
+* 💾 Fully offline
+* ⚡ Fast one-tap event recording
+* 📊 Daily statistics
+* 📅 Monthly history
+* 🎨 Customizable tile colors & transparency
 
 ---
 
-## Live Notification
+# 📸 Screenshots
 
-A persistent notification keeps the current state always visible:
+| Home                                                    | Sleep                                                | Feeding                                                |
+| ------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------ |
+| <img src="assets/screenshots/overview.png" width="220"> | <img src="assets/screenshots/sleep.png" width="220"> | <img src="assets/screenshots/feeding.png" width="220"> |
 
-* Sleeping
-* Awake
-* Walking
+| Activity                                                | Toilet                                                | Questions                                                |
+| ------------------------------------------------------- | ----------------------------------------------------- | -------------------------------------------------------- |
+| <img src="assets/screenshots/activity.png" width="220"> | <img src="assets/screenshots/toilet.png" width="220"> | <img src="assets/screenshots/questions.png" width="220"> |
 
-without opening the application.
+| Growth Monitor                                                | Events                                                    | Widget                                                |
+| ------------------------------------------------------------- | --------------------------------------------------------- | ----------------------------------------------------- |
+| <img src="assets/screenshots/growth-monitor.png" width="220"> | <img src="assets/screenshots/milestones.png" width="220"> | <img src="assets/screenshots/widget.png" width="220"> |
+
+| Settings                                                | Child Switcher                                              | Child Details                                                |
+| ------------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------ |
+| <img src="assets/screenshots/settings.png" width="220"> | <img src="assets/screenshots/switch-child.png" width="220"> | <img src="assets/screenshots/child-details.png" width="220"> |
+
+| Notification                                                |
+| ----------------------------------------------------------- |
+| <img src="assets/screenshots/notification.png" width="220"> |
 
 ---
 
-## Statistics
-
-The application automatically calculates:
-
-* Sleep duration
-* Activity duration
-* Walking time
-* Feeding history
-* Diaper history
-* Daily timeline
-
----
-
-## Tech Stack
+# 🛠 Tech Stack
 
 * Kotlin
-* Jetpack Compose
-* Material 3
+* Android SDK
+* Material Design 3
+* Room Database
+* RecyclerView
+* ViewBinding
+* SharedPreferences
 * Android Widgets
 * Foreground Services
-* Local Storage
-* MVVM
+* Notifications
 
 ---
 
-## Roadmap
+# 🗺 Roadmap
 
-* [x] Sleep tracking
-* [x] Activity tracking
-* [x] Walking mode
-* [x] Feeding tracking
-* [x] Diaper tracking
-* [x] Notes
-* [x] Statistics
-* [x] Home Screen Widget
-* [x] Live Status Notification
-* [x] Growth Monitoring
-* [ ] Backup & Restore
-* [ ] Cloud Sync
-* [ ] Export Data
+## ✅ Implemented
+
+* [x] Multiple child support
+* [x] Sleep tracker
+* [x] Feeding tracker
+* [x] Activity tracker
+* [x] Toilet events
+* [x] Growth monitor
+* [x] Monthly history
+* [x] Daily statistics
+* [x] Milestones & first events
+* [x] Pediatrician questions
+* [x] Live notification timer
+* [x] Home screen widget
+* [x] Built-in wallpapers
+* [x] Custom wallpapers
+* [x] Language switching (EN / UA)
+* [x] Tile color customization
+* [x] Tile opacity customization
+* [x] Offline storage
+
+## 🚀 Planned
+
+* [ ] Cloud synchronization
+* [ ] Google Drive backup
+* [ ] Charts & advanced analytics
+* [ ] Data export / import
+* [ ] Family sharing
+
+---
+
+# 📥 Installation
+
+```bash
+git clone https://github.com/DymnStudio/Dymn-Baby.git
+```
+
+Open the project with **Android Studio** and run it on any Android device or emulator.
+
+---
+
+# 🤝 Contributing
+
+Contributions, ideas, and feature suggestions are welcome.
+
+If you find a bug or have an idea for improvement, feel free to open an Issue or submit a Pull Request.
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Developer
+
+<p align="center">
+
+Developed with ❤️ by **DymnStudio**
+
+⭐ If you like this project, consider giving it a star.
+
+</p>
