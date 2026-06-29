@@ -23,6 +23,18 @@ A modern Android application for tracking your baby's daily routine, growth, and
 
 ---
 
+## 🎬 Demo
+
+<p align="center">
+  <img src="assets/gifs/overview.gif" width="280"/>
+  <img src="assets/gifs/sleep-tracking.gif" width="280"/>
+</p>
+
+<p align="center">
+  <img src="assets/gifs/growth-monitor.gif" width="280"/>
+</p>
+
+
 ## 📖 Contents
 
 * Features
