@@ -14,16 +14,26 @@ A modern Android application for tracking your baby's daily routine, growth, and
 </p>
 
 <p align="center">
-
-![Android](https://img.shields.io/badge/Android-8.0+-34A853?style=for-the-badge\&logo=android\&logoColor=white)
-![Kotlin](https://img.shields.io/badge/Kotlin-2.x-7F52FF?style=for-the-badge\&logo=kotlin\&logoColor=white)
-![Material 3](https://img.shields.io/badge/Material-3-1976D2?style=for-the-badge)
-![Offline](https://img.shields.io/badge/Offline-Ready-success?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-orange?style=for-the-badge)
-
+  <img src="https://img.shields.io/badge/Android-8.0+-34A853?style=for-the-badge&logo=android&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kotlin-2.x-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+  <img src="https://img.shields.io/badge/Material-3-1976D2?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Offline-Ready-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/License-MIT-orange?style=for-the-badge" />
 </p>
 
 ---
+
+## 🎬 Demo
+
+<p align="center">
+  <img src="assets/gifs/overview.gif" width="280"/>
+  <img src="assets/gifs/sleep-tracking.gif" width="280"/>
+</p>
+
+<p align="center">
+  <img src="assets/gifs/growth-monitor.gif" width="280"/>
+</p>
+
 
 ## 📖 Contents
 
